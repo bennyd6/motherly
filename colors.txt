@@ -1,0 +1,5 @@
+pink dark: B85887
+pink: CC6594
+light pink: E6A6C7
+blue: 347DC1
+dark blue: 2768A4

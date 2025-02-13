@@ -1,0 +1,48 @@
+.react-calendar {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for the month title (e.g., "February 2025") */
+.react-calendar__navigation__label {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #34495e;
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Default styling for calendar date boxes */
+.react-calendar__tile {
+    padding: 10px;
+    transition: 0.3s;
+    background-color: white !important;  /* Set white background */
+    border: none !important;
+}
+
+/* Strikethrough effect */
+.strikethrough {
+    text-decoration: line-through;
+}
+
+/* Add hover effect */
+.react-calendar__tile:hover {
+    background-color: #f0f0f0 !important; /* Light gray on hover */
+}
+
+/* Leave space below the days and date tiles */
+.react-calendar__month-view {
+    margin-bottom: 30px;  /* Add space between the tiles and the bottom */
+}
+
+.react-calendar__navigation__next-button, .react-calendar__navigation__prev-button, .react-calendar__navigation__prev2-button, .react-calendar__navigation__next2-button{
+    background-color: white;
+    border: none;
+}
